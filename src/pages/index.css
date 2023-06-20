@@ -58,6 +58,12 @@ body {
 	transform: translateZ(-55px) scale(1.1);
 }
 
+@media screen and (max-width: 1440px) {
+	.layer-1 {
+		transform: translateZ(-55px) scale(1.6);
+	}
+}
+
 .layer-2 {
 	background-image: url(../img/layer-2.png);
 	transform: translateZ(80px) scale(.95);
