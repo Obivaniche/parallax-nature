@@ -55,16 +55,16 @@ body {
 
 .layer-1 {
 	background-image: url(../img/layer-1.jpg);
-	transform: translateZ(-55px) scale(1.05);
+	transform: translateZ(-55px) scale(1.1);
 }
 
 .layer-2 {
 	background-image: url(../img/layer-2.png);
-	transform: translateZ(80px) scale(.9);
+	transform: translateZ(80px) scale(.95);
 }
 
 .layer-3 {
-	transform: translateZ(180px) scale(.8);
+	transform: translateZ(180px) scale(.75);
 }
 
 .layer-4 {
@@ -73,12 +73,17 @@ body {
 
 .layer-5 {
 	background-image: url(../img/layer-5.png);
-	transform: translateZ(300px) scale(.9);
+	transform: translateZ(300px) scale(.75);
 }
 
 .layer-6 {
 	background-image: url(../img/layer-6.png);
-	transform: translateZ(380px);
+	transform: translateZ(280px);
+}
+
+.layer-7 {
+	background-image: url(../img/layer-7.png);
+	transform: translateZ(350px);
 }
 
 .hero-content {
@@ -126,7 +131,8 @@ body {
 
 .layer-4,
 .layer-5,
-.layer-6 {
+.layer-6,
+.layer-7 {
 	pointer-events: none;
 }
 
